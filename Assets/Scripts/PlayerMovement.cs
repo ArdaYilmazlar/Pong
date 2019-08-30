@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(controlUpKeyCode))
         {
             return 1;
-        }else if (Input.GetKey(controlDownKeyCode))
+        } else if (Input.GetKey(controlDownKeyCode))
         {
             return -1;
         }
